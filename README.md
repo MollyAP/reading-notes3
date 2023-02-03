@@ -1,5 +1,7 @@
 # Bre Reading-Notes Repo
 
-## [Course 102](/Reading-Notes/102)
+# Table of Contents
 
-## [Course 201](/Reading-Notes/201)
+## [Course 102](1102)
+
+## [Course 201](201)
