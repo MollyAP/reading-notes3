@@ -63,7 +63,7 @@ h1 {
 </style>
 </head>
 
-However, if the internal style is defined before the link to the external style sheet, the <h1> elements will be "navy": 
+However, if the internal style is defined before the link to the external style sheet, the < h1 > elements will be "navy": 
 
 <head>
 <style>
