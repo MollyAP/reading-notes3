@@ -1,9 +1,13 @@
 What is CSS?
+
 CSS stands for Cascading Style Sheet, and allows you to create great-looking web pages.
+
 What is CSS for?
+
 CSS is a language for specifying how documents are presented to users — how they are styled, laid out, etc.
 A document is usually a text file structured using a markup language. HTML is the most common markup language, but you may also come across other markup languages such as SVG or XML.
 Presenting a document to a user means converting it into a form usable by your audience. Browsers, like Firefox, Chrome, or Edge, are designed to present documents visually on a computer screen, projector, or printer.
+
 Note: A browser is sometimes called a user agent, which means a computer program that represents a person inside a computer system. Browsers are the main type of user agents that come to mind when talking about CSS, however, they are not the only ones. There are other user agents available, such as those that convert HTML and CSS documents into PDFs to be printed.
 
 CSS is a rule-based language, you define the rules by specifying groups of styles that should be applied to particular elements or groups of elements on your web page.
@@ -12,13 +16,16 @@ h1 {
   color: red;
   font-size: 5em;
 }
+
 In the above example, the CSS rule opens with a selector. This selects the HTML element that we are going to style. In this case, we are styling level one headings (<h1>).
 We then have a set of curly braces { }.
 Inside the braces will be one or more declarations, which take the form of property and value pairs. We specify the property (color in the above example) before the colon, and we specify the value of the property after the colon (red in this example).
 This example contains two declarations, one for color and the other for font-size. Each pair specifies a property of the element(s) we are selecting (<h1> in this case), then a value that we'd like to give the property.
+
 CSS properties have different allowable values, depending on which property is being specified. In our example, we have the color property, which can take various color values. We also have the font-size property. This property can take various size units as a value.
 All web standards technologies (HTML, CSS, JavaScript, etc.) are defined in giant documents called specifications (or "specs"), which are published by standards organizations (such as the W3C, WHATWG, ECMA, or Khronos) and define precisely how those technologies are supposed to behave.
 CSS specifications
+
 CSS is no different — it is developed by a group within the W3C called the CSS Working Group. This group is made of representatives of browser vendors and other companies who have an interest in CSS. There are also other people, known as invited experts, who act as independent voices; they are not linked to a member organization.
 Browser support information
 The browser support status is shown on every MDN CSS property page in a table named "Browser compatibility".
@@ -45,7 +52,7 @@ Note: An inline style loses many of the advantages of a style sheet (by mixing c
 
 Multiple Style Sheets
 If some properties have been defined for the same selector (element) in different style sheets, the value from the last read style sheet will be used. 
-If the internal style is defined after the link to the external style sheet, the <h1> elements will be "orange":
+If the internal style is defined after the link to the external style sheet, the < h1 > elements will be "orange":
 EXAMPLE:
 <head>
 <link rel="stylesheet" type="text/css" href="mystyle.css">
