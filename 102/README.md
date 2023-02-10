@@ -1,4 +1,5 @@
 # Reading Notes
+
 Notes for Code School Course 102
 
 ## [Class 01](Class01/Notes01.md)
