@@ -67,7 +67,7 @@ examples/ js /alert.html
 
 < script language="javascript" >
 
-alert("Hello World");
+alert( "Hello World" );
 
 </script>
 
