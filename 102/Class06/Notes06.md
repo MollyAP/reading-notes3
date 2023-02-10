@@ -210,8 +210,11 @@ From the example above, you can guess that the total is calculated to be 11.
 NOTE: Variables are containers for storing values.
 
 JavaScript Identifiers
+
 All JavaScript variables must be identified with unique names.
+
 These unique names are called identifiers.
+
 Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
 The general rules for constructing names for variables (unique identifiers) are:
 Names can contain letters, digits, underscores, and dollar signs.
@@ -219,6 +222,7 @@ Names must begin with a letter.
 Names can also begin with $ and _ (but we will not use it in this tutorial).
 Names are case sensitive (y and Y are different variables).
 Reserved words (like JavaScript keywords) cannot be used as names.
+
 NOTE: JavaScript identifiers are case-sensitive.
 The Assignment Operator
 In JavaScript, the equal sign (=) is an "assignment" operator, not an "equal to" operator.
@@ -232,6 +236,7 @@ In JavaScript, however, it makes perfect sense: it assigns the value of x + 5 to
 NOTE: The "equal to" operator is written like == in JavaScript.
 
 JavaScript Data Types
+
 JavaScript variables can hold numbers like 100 and text values like "John Doe".
 In programming, text values are called text strings.
 JavaScript can handle many types of data, but for now, just think of numbers and strings.
@@ -284,6 +289,7 @@ carName = "Volvo",
 price = 200;
 
 Value = undefined
+
 In computer programs, variables are often declared without a value. The value can be something that has to be calculated, or something that will be provided later, like user input.
 
 A variable declared without a value will have the value undefined.
@@ -301,30 +307,36 @@ The variable carName will still have the value "Volvo" after the execution of th
 Example:
 var carName = "Volvo";
 var carName;
+
 Note: You cannot re-declare a variable declared with let or const.
 This will not work:
 let carName = "Volvo";
 let carName;
 JavaScript Arithmetic
 As with algebra, you can do arithmetic with JavaScript variables, using operators like = and +:
+
 EXAMPLE:
 let x = 5 + 2 + 3;
 You can also add strings, but strings will be concatenated:
+
 EXAMPLE:
 let x = "John" + " " + "Doe";
-Also try this:
+Also
+
 EXAMPLE:
 let x = "5" + 2 + 3;
 Note: If you put a number in quotes, the rest of the numbers will be treated as strings, and concatenated.
-Now try this:
+
 EXAMPLE:
 let x = 2 + 3 + "5";
 JavaScript Dollar Sign $
 Since JavaScript treats a dollar sign as a letter, identifiers containing $ are valid variable names:
+
 Example
 let $ = "Hello World";
 let $$$ = 2;
 let $myMoney = 5;
+
 Using the dollar sign is not very common in JavaScript, but professional programmers often use it as an alias for the main function in a JavaScript library.
 
 In the JavaScript library jQuery, for instance, the main function $ is used to select HTML elements. In jQuery $("p"); means "select all p elements".
@@ -336,4 +348,5 @@ EXAMPLE:
 let _lastName = "Johnson";
 let _x = 2;
 let _100 = 5;
+
 Using the underscore is not very common in JavaScript, but a convention among professional programmers is to use it as an alias for "private (hidden)" variables.
