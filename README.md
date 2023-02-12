@@ -12,4 +12,4 @@ I’m here to **_broaden my horizons, improve my computer skills, and learn how 
 
 I’ll keep *myself* in a **Growth Mindset** by admitting when I need help, putting in genuine effort, and rolling with the punches.
 
-For more info you can visit my portfolio page! 
+For more info you can visit my page! [My Profile!] (https://github.com/Breplesch95) 
