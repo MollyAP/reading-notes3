@@ -4,9 +4,9 @@ To create a heading, add number signs (#) in front of a word or phrase. The numb
 
 EXAMPLE:
 < h1 > The biggest size header </ h1 >
-# The biggest size header
+#/ The biggest size header
 < h2 > The second biggest size ever < /h2 >
-## The second biggest size ever
+##/ The second biggest size ever (without slashes)
 
 Paragraphs
 
