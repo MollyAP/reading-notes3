@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/123974055/218291833-c8ad3aa5-d47e-4be0-b2f8-3ae8b9120790.png)
+
+
 <h1>Hello, I’m Breanna Plescher!</h1>
 
 -*I’m from Millington, TN.*
