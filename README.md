@@ -1,7 +1,13 @@
-# Bre Reading-Notes Repo
+<h1>Hello, I’m *Breanna Plescher*!</h1>
 
-# Table of Contents
+-I’m from Millington, TN.
 
-## [Course 102](102)
+-I’m 27
 
-## [Course 201](201)
+-My pronouns are she/her.
+
+I’m here to **_broaden my horizons, improve my computer skills, and learn how to properly code._** I can’t wait to get started learning with you guys!
+
+**Growth Mindset** is the belief that a person can develop and improve themselves with hard work and perserverance.
+
+I’ll keep myself in a **Growth Mindset** by admitting when I need help, putting in genuine effort, and rolling with the punches.
