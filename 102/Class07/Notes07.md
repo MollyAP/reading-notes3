@@ -91,7 +91,7 @@ There are different types of JavaScript operators:
 ⦁	Conditional Operators
 ⦁	Type Operators
 
-Operator(ignore slashes):
+Operator:
 
 +/	 means  Addition
 
@@ -109,6 +109,7 @@ Operator(ignore slashes):
 
 -- means  Decrement
 
+**(IGNORE slashes)**
 
 
 **<h2>JavaScript Assignment Operators</h2>**
