@@ -216,9 +216,9 @@ Operator:
 
 Operator:
 
-typeof means Returns the type of a variable
+typeof *means* Returns the type of a variable
 
-instanceof means Returns true if an object is an instance of an object type
+instanceof *means* Returns true if an object is an instance of an object type
 
 **<h2>JavaScript Bitwise Operators</h2>**
 
