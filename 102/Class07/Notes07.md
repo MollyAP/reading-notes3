@@ -178,9 +178,9 @@ Operator	Description
 
 Operator	Description
 
-&&.........logical and
-||.........logical or
-!..........logical not
+<br>&&</br>	        logical and
+||	        logical or
+!	          logical not
 
 **<h2>JavaScript Type Operators</h2>**
 
