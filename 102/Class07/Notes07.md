@@ -91,13 +91,13 @@ There are different types of JavaScript operators:
 ⦁	Conditional Operators
 ⦁	Type Operators
 
-Operator:
+Operator(ignore slashes):
 
-+	 means  Addition
++/	 means  Addition
 
--	 means  Subtraction
+-/	 means  Subtraction
 
-*	 means  Multiplication
+*/	 means  Multiplication
 
 ** means  Exponentiation (ES2016)
 
@@ -122,11 +122,16 @@ Operator:
 <br>=	  *EXAMPLE*  x = y	  *SAME AS*  x = y</br>
 
 <br>+=  *EXAMPLE*  x += y   *SAME AS*	 x = x + y</br>
--=	*EXAMPLE*  x -= y   *SAME AS*	 x = x - y
-*=	*EXAMPLE*  x *= y   *SAME AS*	 x = x * y
-/=	*EXAMPLE*  x /= y   *SAME AS*	 x = x / y
-%=	*EXAMPLE*  x %= y   *SAME AS*	 x = x % y
-**=	*EXAMPLE*  x **= y  *SAME AS*  x = x ** y
+
+<br>-=	*EXAMPLE*  x -= y   *SAME AS*	 x = x - y</br>
+
+<br>*=	*EXAMPLE*  x *= y   *SAME AS*	 x = x * y</br>
+
+<br>/=	*EXAMPLE*  x /= y   *SAME AS*	 x = x / y</br>
+
+<br>%=	*EXAMPLE*  x %= y   *SAME AS*	 x = x % y</br>
+
+<br>**=	*EXAMPLE*  x **= y  *SAME AS*  x = x ** y</br>
 
 
 **<h2>Adding JavaScript Strings</h2>**
@@ -200,19 +205,19 @@ Operator:
 
 Operator:
 
-&& = logical and
+&& means logical and
 
-|| = logical or
+|| means logical or
 
-!	= logical not
+!	means logical not
 
 **<h2>JavaScript Type Operators</h2>**
 
 Operator:
 
-typeof = Returns the type of a variable
+typeof means Returns the type of a variable
 
-instanceof = Returns true if an object is an instance of an object type
+instanceof means Returns true if an object is an instance of an object type
 
 **<h2>JavaScript Bitwise Operators</h2>**
 
