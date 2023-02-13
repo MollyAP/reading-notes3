@@ -1,4 +1,4 @@
-**<h2>Control Flow</h2>** - the order in which the computer executes statements in a script.
+**<h1>Control Flow</h1>** - the order in which the computer executes statements in a script.
 
 What **Control Flow** also means is that when you read a script, you must not only read from start to finish but also look at program structure and how it affects the order of execution.
 
@@ -28,14 +28,12 @@ Code to be executed by the function is placed inside curly brackets: {}
 
 Inside the function the arguments (the parameters) behave as local variables.
 
-
 **Function Invocation**
+The code inside the function will execute when "something" invokes (calls) the function:
 
-⦁	The code inside the function will execute when "something" invokes (calls) the function:
 ⦁	When an event occurs (when a user clicks a button)
 ⦁	When it is invoked from JavaScript code.
 ⦁	Automatically (self invoked).
-
 
 **<h2>Function Return</h2>**
 
@@ -44,7 +42,6 @@ When JavaScript reaches a return statement, the function will stop executing.
 If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
 
 Functions often compute a return value. The return value is "returned" back to the "caller".
-
 
 **<h2>Why Functions?</h2>**
 
@@ -61,7 +58,6 @@ Accessing a function without () will return the function object instead of the f
 Functions Used as Variable Values
 
 Functions can be used the same way as you use variables, in all types of formulas, assignments, and calculations.
-
 
 **<h2>Local Variables</h2>**
 
@@ -84,12 +80,12 @@ The Multiplication Operator (*) multiplies numbers.
 
 There are different types of JavaScript operators:
 
-⦁	Arithmetic Operators
-⦁	Assignment Operators
-⦁	Comparison Operators
-⦁	Logical Operators
-⦁	Conditional Operators
-⦁	Type Operators
+⦁Arithmetic Operators
+⦁Assignment Operators
+⦁Comparison Operators
+⦁Logical Operators
+⦁Conditional Operators
+⦁Type Operators
 
 Operator:
 
@@ -110,7 +106,6 @@ Operator:
 -- means  Decrement
 
 **(IGNORE slashes)**
-
 
 **<h2>JavaScript Assignment Operators</h2>**
 
