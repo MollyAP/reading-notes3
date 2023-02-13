@@ -91,15 +91,24 @@ There are different types of JavaScript operators:
 ⦁	Conditional Operators
 ⦁	Type Operators
 
-Operator	Description
-+	           Addition
--	           Subtraction
-*	           Multiplication
-**	           Exponentiation (ES2016)
-/	           Division
-%	           Modulus (Division Remainder)
-++	           Increment
---	           Decrement
+Operator:
+
++	 means  Addition
+
+-	 means  Subtraction
+
+*	 means  Multiplication
+
+** means  Exponentiation (ES2016)
+
+/	 means  Division
+
+%	 means  Modulus (Division Remainder)
+
+++ means  Increment
+
+-- means  Decrement
+
 
 
 **<h2>JavaScript Assignment Operators</h2>**
@@ -108,14 +117,15 @@ Assignment operators assign values to JavaScript variables.
 
 The Addition Assignment Operator (+=) adds a value to a variable.
 
-Operator   Example	 Same As
-=	       x = y	 x = y
-+=	       x += y	 x = x + y
--=	       x -= y	 x = x - y
-*=	       x *= y	 x = x * y
-/=	       x /= y	 x = x / y
-%=	       x %= y	 x = x % y
-**=	       x **= y	 x = x ** y
+Operator:
+
+=	  *EXAMPLE*  x = y	  *SAME AS*  x = y
++=  *EXAMPLE*  x += y   *SAME AS*	 x = x + y
+-=	*EXAMPLE*  x -= y   *SAME AS*	 x = x - y
+*=	*EXAMPLE*  x *= y   *SAME AS*	 x = x * y
+/=	*EXAMPLE*  x /= y   *SAME AS*	 x = x / y
+%=	*EXAMPLE*  x %= y   *SAME AS*	 x = x % y
+**=	*EXAMPLE*  x **= y  *SAME AS*  x = x ** y
 
 
 **<h2>Adding JavaScript Strings</h2>**
@@ -161,32 +171,47 @@ Hello5
 
 If you add a number and a string, the result will be a string!
 
-JavaScript Comparison Operators
-Operator	Description
-==	        equal to
-===	        equal value and equal type
-!=	        not equal
-!==	        not equal value or not equal type
->	        greater than
-<	        less than
->=	        greater than or equal to
-<=	        less than or equal to
-?	        ternary operator
+**<h2>JavaScript Comparison Operators</h2>**
+
+Operator:
+
+==	means  equal to
+
+===	means  equal value and equal type
+
+!=	means  not equal
+
+!==	means  not equal value or not equal type
+
+>	  means  greater than
+
+<	  means  less than
+
+>=	means  greater than or equal to
+
+<=	means  less than or equal to
+
+?	  means  ternary operator
+
 
 
 **<h2>JavaScript Logical Operators</h2>**
 
-Operator	Description
+Operator:
 
-<br>&&</br>	        logical and
-||	        logical or
-!	          logical not
+&& = logical and
+
+|| = logical or
+
+!	= logical not
 
 **<h2>JavaScript Type Operators</h2>**
 
-Operator	Description
-typeof	              Returns the type of a variable
-instanceof	Returns true if an object is an instance of an object type
+Operator:
+
+typeof = Returns the type of a variable
+
+instanceof = Returns true if an object is an instance of an object type
 
 **<h2>JavaScript Bitwise Operators</h2>**
 
