@@ -190,17 +190,17 @@ Operator:
 
 !==	means  not equal value or not equal type
 
->	  means  greater than
+/>	  means  greater than
 
 <	  means  less than
 
->=	means  greater than or equal to
+/>=	means  greater than or equal to
 
 <=	means  less than or equal to
 
 ?	  means  ternary operator
 
-
+**(IGNORE slashes)**
 
 **<h2>JavaScript Logical Operators</h2>**
 
