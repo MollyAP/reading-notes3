@@ -176,19 +176,19 @@ Operator	Description
 
 **<h2>JavaScript Logical Operators</h2>**
 
-<u>Operator	Description</u>
+Operator	Description
 
-&&	        logical and
-||	        logical or
-!	        logical not
+&&.........logical and
+||.........logical or
+!..........logical not
 
-JavaScript Type Operators
+**<h2>JavaScript Type Operators</h2>**
 
 Operator	Description
 typeof	              Returns the type of a variable
 instanceof	Returns true if an object is an instance of an object type
 
-JavaScript Bitwise Operators
+**<h2>JavaScript Bitwise Operators</h2>**
 
 Bit operators work on 32 bits numbers.
 
