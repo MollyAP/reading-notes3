@@ -119,8 +119,9 @@ The Addition Assignment Operator (+=) adds a value to a variable.
 
 Operator:
 
-=	  *EXAMPLE*  x = y	  *SAME AS*  x = y
-+=  *EXAMPLE*  x += y   *SAME AS*	 x = x + y
+<br>=	  *EXAMPLE*  x = y	  *SAME AS*  x = y</br>
+
+<br>+=  *EXAMPLE*  x += y   *SAME AS*	 x = x + y</br>
 -=	*EXAMPLE*  x -= y   *SAME AS*	 x = x - y
 *=	*EXAMPLE*  x *= y   *SAME AS*	 x = x * y
 /=	*EXAMPLE*  x /= y   *SAME AS*	 x = x / y
