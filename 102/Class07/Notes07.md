@@ -206,11 +206,11 @@ Operator:
 
 Operator:
 
-&& means logical and
+&& *means* logical and
 
-|| means logical or
+|| *means* logical or
 
-!	means logical not
+!	 *means* logical not
 
 **<h2>JavaScript Type Operators</h2>**
 
