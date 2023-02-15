@@ -116,7 +116,7 @@ In strict mode, the code above throws, because one cannot assign properties to p
 
 It is an error to assign values to unmodifiable properties or to properties of an expression without properties (null or undefined).
 
-<h1>**Destructuring**</h1>
+<h1>Destructuring</h1>
 For more complex assignments, the **destructuring** assignment syntax is a JavaScript expression that makes it possible to extract data from arrays or objects using a syntax that mirrors the construction of array and object literals.
 
 const foo = ["one", "two", "three"];
@@ -129,7 +129,7 @@ const three = foo[2];
 // with destructuring
 const [one, two, three] = foo;
 
-<h1>**Evaluation and nesting**</h1>
+<h1>Evaluation and nesting</h1>
 
 In general, assignments are used within a variable declaration (i.e., with const, let, or var) or as standalone statements).
 
