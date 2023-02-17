@@ -1,4 +1,4 @@
-<h1>**Expressions and operators**</h1>
+<h1>Expressions and operators</h1>
 
 An **expression** is a valid unit of code that resolves to a value.
 
@@ -50,7 +50,7 @@ operand operator
 
 For example, x++ or ++x. The operator operand form is called a prefix unary operator, and the operand operator form is called a postfix unary operator. ++ and -- are the only postfix operators in JavaScript — all other operators, like !, typeof, etc. are prefix.
 
-**<h1>Assignment operators</h1>**
+<h1>Assignment operators</h1>
 
 An **assignment operator** assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal (=), which assigns the value of its right operand to its left operand. That is, x = f() is an assignment expression that assigns the value of f() to x.
 
@@ -88,7 +88,7 @@ Logical OR assignment  *Shorthand operator*  x ||= f()  *Meaning* x || (x = f())
 
 Nullish coalescing assignment  *Shorthand operator*  x ??= f() *Meaning*  x ?? (x = f())
 
-<h1>**Assigning to properties**</h1>
+<h1>Assigning to properties</h1>
 If an expression evaluates to an object, then the left-hand side of an assignment expression may make assignments to properties of that expression.
 **EXAMPLE:**
 
@@ -116,7 +116,7 @@ In strict mode, the code above throws, because one cannot assign properties to p
 
 It is an error to assign values to unmodifiable properties or to properties of an expression without properties (null or undefined).
 
-<h1>**Destructuring**</h1>
+<h1>Destructuring</h1>
 For more complex assignments, the **destructuring** assignment syntax is a JavaScript expression that makes it possible to extract data from arrays or objects using a syntax that mirrors the construction of array and object literals.
 
 const foo = ["one", "two", "three"];
@@ -129,7 +129,7 @@ const three = foo[2];
 // with destructuring
 const [one, two, three] = foo;
 
-<h1>**Evaluation and nesting**</h1>
+<h1>Evaluation and nesting</h1>
 
 In general, assignments are used within a variable declaration (i.e., with const, let, or var) or as standalone statements).
 
