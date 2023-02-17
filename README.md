@@ -53,4 +53,11 @@ Class 07 - Programming with JavaScript
 
 Class 08 - Operators and Loops
 
-# Notes for Code School Course 201
+# Notes for Code School Course 201 
+W.I.P.
+
+# Notes for Code School Course 301 
+W.I.P.
+
+# Notes for Code School Course 401 
+W.I.P.
