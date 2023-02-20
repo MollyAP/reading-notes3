@@ -1,6 +1,6 @@
 <h1>How the web works</h1>
 
-<h2>**Clients and servers**</h2>
+**<h2>Clients and servers</h2>**
 
 Computers connected to the internet are called **clients** and **servers**.
 
@@ -31,38 +31,40 @@ Computers connected to the internet are called **clients** and **servers**.
 
 1 **Web browsers**, to test code in. The most-used browsers at this time are Firefox, Chrome, Opera, Safari, Internet Explorer and Microsoft Edge. You should also test how your site performs on mobile devices and on any old browsers your target audience may still be using (such as IE 8–10). Lynx, a text-based terminal web browser, is great for seeing how your site is experienced by visually-impaired users.
 
-A graphics editor, like GIMP, Figma, Paint.NET, Photoshop, Sketch or XD
+A **Graphics editor**, like GIMP, Figma, Paint.NET, Photoshop, Sketch or XD
 
-A version control system, to manage files on servers, collaborate on a project with a team, share code and assets and avoid editing conflicts. Right now, Git is the most popular version control system along with the GitHub or GitLab hosting service.
+A **version control system**, to manage files on servers, collaborate on a project with a team, share code and assets and avoid editing conflicts. Right now, Git is the most popular version control system along with the GitHub or GitLab hosting service.
 
-An FTP program, used on older web hosting accounts to manage files on servers (Git is increasingly replacing FTP for this purpose). There are loads of (S)FTP programs available including Cyberduck, Fetch and FileZilla.
+An **FTP program**, used on older web hosting accounts to manage files on servers (Git is increasingly replacing FTP for this purpose). There are loads of (S)FTP programs available *including* Cyberduck, Fetch and FileZilla.
 
-An automation system, like Webpack, Grunt, or Gulp to automatically perform repetitive tasks, such as minifying code and running tests.
+An **automation system**, like Webpack, Grunt, or Gulp to automatically perform repetitive tasks, such as minifying code and running tests.
 
 Libraries, frameworks, etc., to speed up writing common functionality. A library tends to be an existing JavaScript or CSS file that provides ready-rolled functionality for you to make use of in your code. A framework tends to take this idea further, offering a complete system with some custom syntaxes for you to write a web app on top of.
 
-****
 
-1 Compose a short poem describing how HTTP sends data between computers.
 
-1 Describe how HTML, CSS, and JS files are “parsed” in the browser.
+**<h2></h2>**
 
-1 How can you find images to add to a Website?
+1) Compose a short poem describing how HTTP sends data between computers.
 
-1 How do you create a String vs a Number in JavaScript?
+2) Describe how HTML, CSS, and JS files are “parsed” in the browser.
 
-1 What is a Variable and why are they important in JavaScript?
+3) How can you find images to add to a Website?
+
+4) How do you create a String vs a Number in JavaScript?
+
+5) What is a Variable and why are they important in JavaScript?
 
 <h1>Intro to HTML</h1>
 
-1 What is an HTML attribute?
+1) What is an HTML attribute?
 
-1 Describe the Anatomy of an HTMl element.
+2) Describe the Anatomy of an HTMl element.
 
-1 What is the Difference between </article> and </section> element tags?
+3) What is the Difference between </article> and </section> element tags?
 
-1 What Elements does a “typical” website include?
+4) What Elements does a “typical” website include?
 
-1 How does metadata influence Search Engine Optimization?
+5) How does metadata influence Search Engine Optimization?
 
-1 How is the </meta> HTML tag used when specifying metadata?
+6) How is the </meta> HTML tag used when specifying metadata?
