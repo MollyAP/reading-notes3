@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
+    <head><style></style>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <main><h1>Class 1 Lab</h1></main>
+        <main><h1><p style="color:blue">Class 1 Lab</p></h1></main>
     
         
         <script src="" async defer></script>
