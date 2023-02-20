@@ -73,12 +73,20 @@ An **automation system**, like Webpack, Grunt, or Gulp to automatically perform 
 1) Compose a short poem describing how HTTP sends data between computers.
 
 2) Describe how HTML, CSS, and JS files are “parsed” in the browser.
+The HTML is parsed first, leading the browser to recognize any < link >-element references to external CSS stylesheets and any < script >-element references to scripts.The browser parses the HTML and sends requests back to the server for any CSS files it has found from < link > elements, and any JavaScript files it has found from < script > elements, and from those, then parses the CSS and JavaScript. The browser generates an in-memory DOM tree from the parsed HTML, generates an in-memory CSSOM structure from the parsed CSS, and compiles and then executes the parsed JavaScript. As the browser builds the DOM tree and applies the styles from the CSSOM tree and executes the JavaScript, a visual representation of the page is painted to the screen, and the user sees the page content and can begin to interact with it.
 
 3) How can you find images to add to a Website?
+You can find images on Google to use, being aware of copyright, click on the image you want to get an enlarged view of it and then right-click the image to choose Save Image As…, and choose a safe place to save your image. Alternatively, copy the image's web address from your browser's address bar for later use.
 
 4) How do you create a String vs a Number in JavaScript?
+In order to signify that the value is a string, enclose it in single or double quote marks.
+let myVariable = 'Bob'; or
+let myVariable = "Bob";
+
+Numbers, however, don't have quotes arund them. let myVariable = 10;
 
 5) What is a Variable and why are they important in JavaScript?
+Variables are containers that store values, and they are important because Variables are necessary to do anything interesting in programming. If values couldn't change, then you couldn't do anything dynamic, like personalize a greeting message or change an image displayed in an image gallery.
 
 <h1>Introduction to HTML</h1>
 
@@ -107,14 +115,19 @@ A strip across the bottom of the page that generally contains fine print, copyri
 
 
 
-1) What is an HTML attribute? Attributes are special words used inside the opening tag to control the elements behavior.
+1) What is an HTML attribute?
+Attributes are special words used inside the opening tag to control the elements behavior.
 
-2) Describe the Anatomy of an HTMl element. The anatomy of a HTML element includes the Angle Brackets, which tells the browser that it's an html tag; The Name of the tag usually abbreviation of a word or phrase that says what it does; Attributes, specific to tags and add additional information telling the browser what to do in the context of the tag; Attribute Values Specific info for a tag attribute; Dfeault Values, what the tag will do if no attributes with values are specified.
+2) Describe the Anatomy of an HTMl element.
+The anatomy of a HTML element includes the Angle Brackets, which tells the browser that it's an html tag; The Name of the tag usually abbreviation of a word or phrase that says what it does; Attributes, specific to tags and add additional information telling the browser what to do in the context of the tag; Attribute Values Specific info for a tag attribute; Dfeault Values, what the tag will do if no attributes with values are specified.
 
-3) What is the Difference between </article> and </section> element tags? An article tag is used for specifying independant, self-contained content. A section tag defines sections in a document (ex: chapters, headers, footers, any section in a doc).
+3) What is the Difference between </article> and </section> element tags?
+An article tag is used for specifying independant, self-contained content. A section tag defines sections in a document (ex: chapters, headers, footers, any section in a doc).
 
-4) What Elements does a “typical” website include? Header, Navigation Bar, Main Content, Sidebar, Footer.
+4) What Elements does a “typical” website include?
+Header, Navigation Bar, Main Content, Sidebar, Footer.
 
-5) How does metadata influence Search Engine Optimization? Metadata tells search engines how to read and display sites on search engine result pages (SERPs).
+5) How does metadata influence Search Engine Optimization?
+Metadata tells search engines how to read and display sites on search engine result pages (SERPs).
 
 6) How is the </meta> HTML tag used when specifying metadata? 
