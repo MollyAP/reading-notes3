@@ -19,17 +19,17 @@ Computers connected to the internet are called **clients** and **servers**.
 **HTTP**: **Hypertext Transfer Protocol** is an application protocol that defines a language for clients and servers to speak to each other. This is like the language you use to order your goods.
 
 **Component files**: A website is made up of many different files, which are like the different parts of the goods you buy from the shop. These files come in two main types:
-1**Code files**: Websites are built primarily from HTML, CSS, and JavaScript.
+**Code files**: Websites are built primarily from HTML, CSS, and JavaScript.
 
-1**Assets**: This is a collective name for all the other stuff that makes up a website, such as images, music, video, Word documents, and PDFs.
+**Assets**: This is a collective name for all the other stuff that makes up a website, such as images, music, video, Word documents, and PDFs.
 
-<h2>**What tools do proffesionals use?**</h2>
+<h2>What tools do proffesionals use?</h2>
 
-1 **A computer**. For serious web development, it's better to invest in a desktop or laptop computer running Windows, macOS or Linux.
+**A computer**. For serious web development, it's better to invest in a desktop or laptop computer running Windows, macOS or Linux.
 
-1 **A text editor**, to write code in. This could be a text editor (e.g. Visual Studio Code, Notepad++, Sublime Text, GNU Emacs, or VIM), or a hybrid editor (e.g. Dreamweaver or WebStorm). Office document editors are not suitable, as they rely on hidden elements that interfere with the rendering engines used by web browsers.
+**A text editor**, to write code in. This could be a text editor (e.g. Visual Studio Code, Notepad++, Sublime Text, GNU Emacs, or VIM), or a hybrid editor (e.g. Dreamweaver or WebStorm). Office document editors are not suitable, as they rely on hidden elements that interfere with the rendering engines used by web browsers.
 
-1 **Web browsers**, to test code in. The most-used browsers at this time are Firefox, Chrome, Opera, Safari, Internet Explorer and Microsoft Edge. You should also test how your site performs on mobile devices and on any old browsers your target audience may still be using (such as IE 8–10). Lynx, a text-based terminal web browser, is great for seeing how your site is experienced by visually-impaired users.
+**Web browsers**, to test code in. The most-used browsers at this time are Firefox, Chrome, Opera, Safari, Internet Explorer and Microsoft Edge. You should also test how your site performs on mobile devices and on any old browsers your target audience may still be using (such as IE 8–10). Lynx, a text-based terminal web browser, is great for seeing how your site is experienced by visually-impaired users.
 
 A **Graphics editor**, like GIMP, Figma, Paint.NET, Photoshop, Sketch or XD
 
@@ -39,7 +39,7 @@ An **FTP program**, used on older web hosting accounts to manage files on server
 
 An **automation system**, like Webpack, Grunt, or Gulp to automatically perform repetitive tasks, such as minifying code and running tests.
 
-Libraries, frameworks, etc., to speed up writing common functionality. A library tends to be an existing JavaScript or CSS file that provides ready-rolled functionality for you to make use of in your code. A framework tends to take this idea further, offering a complete system with some custom syntaxes for you to write a web app on top of.
+**Libraries**, **frameworks**, etc., to speed up writing common functionality. A **library** tends to be an existing JavaScript or CSS file that provides ready-rolled functionality for you to make use of in your code. A **framework** tends to take this idea further, offering a complete system with some custom syntaxes for you to write a web app on top of.
 
 
 
