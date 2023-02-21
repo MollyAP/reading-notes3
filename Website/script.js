@@ -36,7 +36,7 @@ function show_prompt4() {
 
     document.getElementById('promptreturn4').innerHTML = d;
     if (d == null) {
-        document.getElementById('promptreturn4').innerHTML = ":'(.";
+        document.getElementById('promptreturn4').innerHTML = ":'(";
     }else{
         document.getElementById('promptreturn4').innerHTML = "<span id='promptretval'>*huggles you* " + d + " </span>";
     }

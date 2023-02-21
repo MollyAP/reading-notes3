@@ -28,6 +28,6 @@
         <a><button onclick="show_prompt4()">Click Me</button></a><br>
         <p id="promptreturn4"></p>
 
-        <script src="" async defer></script>
+        <script src="script.js"></script>
     </body>
 </html>
