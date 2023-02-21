@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <main><h1><p style="color:blue">Class 1 Lab</p></h1></main>
+        <main><h1><p style="color:rgb(9, 1, 110)">Class 1 Lab</p></h1></main>
     
         
         <script src="" async defer></script>
