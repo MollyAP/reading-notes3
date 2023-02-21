@@ -1,43 +1,43 @@
-function show_prompt() {
-    var promptRet = prompt("What is your name?");
+function show_prompt1() {
+    var a = prompt("What is your name?");
 
-    document.getElementById('promptreturn').innerHTML = promptRet;
-    if (promptRet == null) {
-        document.getElementById('promptexplanation').innerHTML = "Answer it, nerd.";
+    document.getElementById('promptreturn1').innerHTML = a;
+    if (a == null) {
+        document.getElementById('promptreturn1').innerHTML = "Answer it, nerd.";
     }else{
-        document.getElementById('promptexplanation').innerHTML = "<span id='promptretval'>Hewwo, " + promptRet + " nice to meet you ^W^</span>";
+        document.getElementById('promptreturn1').innerHTML = "<span id='promptretval'>Hewwo, " + a + " nice to meet you ^W^</span>";
     }
 }
 
-function show_prompt() {
-    var promptRet = prompt("Do you like waffles? ^^");
+function show_prompt2() {
+    var b = prompt("Do you like waffles? ^^");
 
-    document.getElementById('promptreturn').innerHTML = promptRet;
-    if (promptRet == null) {
-        document.getElementById('promptexplanation').innerHTML = "Guess you like tacos more.";
+    document.getElementById('promptreturn2').innerHTML = b;
+    if (b == null) {
+        document.getElementById('promptreturn2').innerHTML = "Guess you like tacos more.";
     }else{
-        document.getElementById('promptexplanation').innerHTML = "<span id='promptretval'>Omg me too!! " + promptRet + " </span>";
+        document.getElementById('promptreturn2').innerHTML = "<span id='promptretval'>Omg me too!! " + b + " </span>";
     }
 }
 
-function show_prompt() {
-    var promptRet = prompt("Do you wanna watch anime??");
+function show_prompt3() {
+    var c = prompt("Do you wanna watch anime??");
 
-    document.getElementById('promptreturn').innerHTML = promptRet;
-    if (promptRet == null) {
-        document.getElementById('promptexplanation').innerHTML = "BAKA!!!.";
+    document.getElementById('promptreturn3').innerHTML = c;
+    if (c == null) {
+        document.getElementById('promptreturn3').innerHTML = "BAKA!!!.";
     }else{
-        document.getElementById('promptexplanation').innerHTML = "<span id='promptretval'>YAAYY!1 " + promptRet + " </span>";
+        document.getElementById('promptreturn3').innerHTML = "<span id='promptretval'>YAAYY!1 " + c + " </span>";
     }
 }
 
-function show_prompt() {
-    var promptRet = prompt("Did you enjoy answering these questions?");
+function show_prompt4() {
+    var d = prompt("Did you enjoy answering these questions?");
 
-    document.getElementById('promptreturn').innerHTML = promptRet;
-    if (promptRet == null) {
-        document.getElementById('promptexplanation').innerHTML = ":'(.";
+    document.getElementById('promptreturn4').innerHTML = d;
+    if (d == null) {
+        document.getElementById('promptreturn4').innerHTML = ":'(.";
     }else{
-        document.getElementById('promptexplanation').innerHTML = "<span id='promptretval'>*huggles you* " + promptRet + " </span>";
+        document.getElementById('promptreturn4').innerHTML = "<span id='promptretval'>*huggles you* " + d + " </span>";
     }
 }
