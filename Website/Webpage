@@ -13,19 +13,19 @@
         <main><h1><p style="color:rgb(9, 0, 135)">Class 1 Lab</p></h1></main>
     
         <p>Hi! What's your name?</p>
-        <a><button onclick="showprompt1()">Click Me</button></a><br>
+        <a><button onclick="show_prompt1()">Click Me</button></a><br>
         <p id="promptreturn1"></p>
         
         <p>Do you like waffles? ^^</p>
-        <a><button onclick="showprompt2()">Click Me</button></a><br>
+        <a><button onclick="show_prompt2()">Click Me</button></a><br>
         <p id="promptreturn2"></p>
 
         <p>Do you watch anime!?</p>
-        <a><button onclick="showprompt3()">Click Me</button></a><br>
+        <a><button onclick="show_prompt3()">Click Me</button></a><br>
         <p id="promptreturn3"></p>
 
         <p>Did you enjoy answering these questions?</p>
-        <a><button onclick="showprompt4()">Click Me</button></a><br>
+        <a><button onclick="show_prompt4()">Click Me</button></a><br>
         <p id="promptreturn4"></p>
 
         <script src="" async defer></script>
