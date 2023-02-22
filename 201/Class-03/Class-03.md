@@ -157,6 +157,8 @@ Ordered list inside unordered list
   <li>third item</li>
 </ul>
 
+**QnA's**
+
 When should you use an unordered list in your HTML document? When marking up content whih could be defined as a list.
 
 How do you change the bullet style of unordered list items? By using 'list-style-type'.
@@ -164,7 +166,7 @@ How do you change the bullet style of unordered list items? By using 'list-style
 When should you use an ordered list vs an unordered list in your HTML document? An Unordered list should be used to create a list of related items, in no particular order.
 An Ordered list should be used to create a list of related items, in a specific order.
 
-Describe two ways you can change the numbers on list items provided by an ordered list? 
+Describe two ways you can change the numbers on list items provided by an ordered list? By using either the 'Roman Numeral type' or using 'Nesting lists'.
 
 <h1>Learn CSS</h1>
 
@@ -342,11 +344,6 @@ It does not, however, break onto a new line, and will only become larger than it
 Where this can be useful is when you want to give a link a larger hit area by adding padding. <a> is an inline element like <span>; you can use display: inline-block to allow padding to be set on it, making it easier for a user to click the link.
 
 You see this fairly frequently in navigation bars. The navigation below is displayed in a row using flexbox and we have added padding to the <a> element as we want to be able to change the background-color when the <a> is hovered. The padding appears to overlap the border on the <ul> element. This is because the <a> is an inline element.
-
-
-
-Describe the CSS properties of margin and padding as characters in a story. What is their role in a story titled: “The Box Model”? 
-List and describe the four parts of an HTML elements box as referred to by the box model. 
 
 <h1>Learn JS</h1>
 
@@ -550,6 +547,8 @@ The continue statement works similarly to break, but instead of breaking out of 
 
 It's the same with loops — a break statement will immediately exit the loop and make the browser move on to any code that follows it.
 
-What data types can you store inside of an Array? 
+**QnA's**
 
-Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
+What data types can you store inside of an Array? Strings, numbers, objects, and even other arrays.
+
+Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why? Th epeople array is not a valid javascript array, as they are generally described as "list-like objects".
