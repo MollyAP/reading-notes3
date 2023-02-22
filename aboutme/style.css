@@ -1,1 +1,5 @@
-<body>
+body{
+    /* background-image: url(); */
+    color: rgb(31, 41, 108);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
