@@ -1,5 +1,13 @@
 'use strict'
 
+function whodat() {
+    myname = prompt("What is your name?");
+    let name = (myname);
+    alert("Hello, " + name);
+    document.getElementById('name').innerHTML = "<span id='name'>"+name+"</span>";
+}
+whodat();
+
 function show_prompt1() {
     var a = prompt ("Make sure to capitalize, pls!");
 
