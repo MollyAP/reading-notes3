@@ -157,10 +157,14 @@ Ordered list inside unordered list
   <li>third item</li>
 </ul>
 
-When should you use an unordered list in your HTML document?
-How do you change the bullet style of unordered list items?
-When should you use an ordered list vs an unorder list in your HTML document?
-Describe two ways you can change the numbers on list items provided by an ordered list?
+When should you use an unordered list in your HTML document? When marking up content whih could be defined as a list.
+
+How do you change the bullet style of unordered list items? By using 'list-style-type'.
+
+When should you use an ordered list vs an unordered list in your HTML document? An Unordered list should be used to create a list of related items, in no particular order.
+An Ordered list should be used to create a list of related items, in a specific order.
+
+Describe two ways you can change the numbers on list items provided by an ordered list? 
 
 <h1>Learn CSS</h1>
 
@@ -341,8 +345,8 @@ You see this fairly frequently in navigation bars. The navigation below is displ
 
 
 
-Describe the CSS properties of margin and padding as characters in a story. What is their role in a story titled: “The Box Model”?
-List and describe the four parts of an HTML elements box as referred to by the box model.
+Describe the CSS properties of margin and padding as characters in a story. What is their role in a story titled: “The Box Model”? 
+List and describe the four parts of an HTML elements box as referred to by the box model. 
 
 <h1>Learn JS</h1>
 
@@ -546,5 +550,6 @@ The continue statement works similarly to break, but instead of breaking out of 
 
 It's the same with loops — a break statement will immediately exit the loop and make the browser move on to any code that follows it.
 
-What data types can you store inside of an Array?
+What data types can you store inside of an Array? 
+
 Is the people array a valid JavaScript array? If so, how can I access the values stored? If not, why?
