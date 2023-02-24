@@ -6,47 +6,84 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
-    <h1 style="text-align: center;">My Webpage</h1>
+    <div class="flex-container">
 
-    <body style="background-color:rgb(128, 200, 245);"></body>
-    <h2 style="text-align: center;">My bio</h2>
-    <p style="text-align: center;">
-        Hi <p id="name" style="display: inline;"></p>, My name is Breanna Plescher, 27, living in Millington, TN.
-Graduated from Seminole High School, and am currently attending coding classes.
-Currently working at Lowe's, in Inside Lawn and Garden as Part-Time Sales Associate.
-My goal is to utilize my newfound skills to create a suitable career for myself and live the life I want.
+        <!-- buttons -->
 
-    </p>
+        <div class="flex-child-left">
+            <div class="box1">
+                <p>Q1: Is my name Joe Mama?</p>
+                <a><button onclick="show_prompt1()">Answer!</button></a><br>
+                <p id="promptreturn1"></p>
 
-    <p>Q1: Is my name Joe Mama?</p>
-    <a><button onclick="show_prompt1()">Answer!</button></a><br>
-    <p id="promptreturn1"></p>
+                <p>Q2: Did I graduate high school?</p>
+                <a><button onclick="show_prompt2()">Answer!</button></a><br>
+                <p id="promptreturn2"></p>
 
-    <p>Q2: Did I graduate high school?</p>
-    <a><button onclick="show_prompt2()">Answer!</button></a><br>
-    <p id="promptreturn2"></p>
+                <p>Q3: Do I work at Lowe's?</p>
+                <a><button onclick="show_prompt3()">Answer!</button></a><br>
+                <p id="promptreturn3"></p>
 
-    <p>Q3: Do I work at Lowe's?</p>
-    <a><button onclick="show_prompt3()">Answer!</button></a><br>
-    <p id="promptreturn3"></p>
+                <p>Q4: Am I 28 years old?</p>
+                <a><button onclick="show_prompt4()">Answer!</button></a><br>
+                <p id="promptreturn4"></p>
 
-    <p>Q4: Am I 28 years old?</p>
-    <a><button onclick="show_prompt4()">Answer!</button></a><br>
-    <p id="promptreturn4"></p>
+                <p>Q5: Do I live in Tennessee?</p>
+                <a><button onclick="show_prompt5()">Answer!</button></a><br>
+                <p id="promptreturn5"></p>
 
-    <p>Q5: Do I live in Tennessee?</p>
-    <a><button onclick="show_prompt5()">Answer!</button></a><br>
-    <p id="promptreturn5"></p>
+                <p>What's my favorite color?</p>
+                <button onclick="favcl()">Enter Color</button>
 
-    <button onclick="myFunction()">Click me!</button>
+                <p>What's my favorite number?</p>
+                <button onclick="favnm()">Enter Number</button>
+            </div>
+        </div>
 
-    <script src="aboutme.js" async defer></script>
+        <!-- header -->
+
+        <div class="flex-child-inside">
+            <div class="box2">
+
+                <h1 style="text-align: center;">My Webpage</h1>
+
+            </div>
+
+
+        <!-- words -->
+
+            <div class="box3">
+                <h2 style="text-align: center;">My bio</h2>
+                <p style="text-align: center;">
+                    Hi
+                <p id="name" style="display: inline;"></p>, My name is Breanna Plescher, 27, living in Millington, TN.
+                Graduated from Seminole High School, and am currently attending coding classes.
+                Currently working at Lowe's, in Inside Lawn and Garden as Part-Time Sales Associate.
+                My goal is to utilize my newfound skills to create a suitable career for myself and live the life I
+                want.
+
+                </p>
+            </div>
+        </div>
+
+        <!-- Image -->
+
+        <div class="flex-child-right">
+            <div class="box4">
+
+                <img src="https://i.imgur.com/FmX57nz.png">
+
+            </div>
+        </div>
+        <script src="aboutme.js" async defer></script>
+    </div>
 </body>
 
 </html>

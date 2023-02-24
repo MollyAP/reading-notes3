@@ -1,12 +1,10 @@
-'use strict'
-
-function whodat() {
-    myname = prompt("What is your name?");
-    let name = (myname);
-    alert("Hello, " + name);
-    document.getElementById('name').innerHTML = "<span id='name'>"+name+"</span>";
-}
-whodat();
+// function whodat() {
+//     myname = prompt("What is your name?");
+//     let name = (myname);
+//     alert("Hello, " + name);
+//     document.getElementById('name').innerHTML = "<span id='name'>"+name+"</span>";
+// }
+// whodat();
 
 function show_prompt1() {
     var a = prompt ("Make sure to capitalize, pls!");
@@ -80,52 +78,47 @@ function show_prompt5() {
     }
 }
 
-let userAns = ""
-let thisArray = [4,5,7,12, "Hello"];
-
-function printItem(thisItem){
-    for(let x = 0; x<thisItem.length; x++){
-        console.log(thisItem[x]);
-    }
-}
-
-printItem(thisArray)
-
-function thisfunc(){
-
-    userAns = prompt("Please guess a number between 1 and 10! :)");
-
-
-    while (userAns != 5){
-        if (userAns < 5){
-            alert("Your number is too low! Try again!");
-            userAns = prompt("Please guess a number again!");
+let fav = ["Pink", "Blue", "Purple"]
+function favcl() {
+    let userAns = prompt("What's my favorite color?");
+    let answerIsRight = false
+    for (let i = 0; i < fav.length; i++) {
+        if (userAns == fav[i]) {
+            answerIsRight = true
         }
-    else if(userAns > 5){
-        alert("Your number is too high! Try again!");
-        userAns = prompt("Please guess a number again!")
+
+    }
+    if (answerIsRight == true) {
+        alert ("YOU ARE RIGHT!")
+    } else {
+        alert ("WRONG")
     }
 }
-alert("You guessed right!!!");
-}
+
+function favnm(expectedAnswer) {
+    let chancesLeft = 6;
+    let answeredCorrectly = 7;
+    let userAns;
+    while (chancesLeft > 0 && userAns != answeredCorrectly) {
+        userAns = prompt("Go on, guess.");
 
 
-function promptUser(expectedAnswer) {
-  let chancesLeft = 4;
-  let answeredCorrectly = false;
-  
-  while (chancesLeft > 0) {
-    const answer = prompt('Please enter your answer:');
-    if (answer === null) {
-      break;
-    } 
-    else if (answer === expectedAnswer) {
-      answeredCorrectly = true;
-      break;
+
+        if (userAns < 7) {
+            alert("Your number is too low! Try again!");
+            chancesLeft--
+        }
+        else if (userAns > 7) {
+            alert("Your number is too high! Try again!");
+            chancesLeft--
+        }
+
+        else if (userAns == 7) {
+            alert("Correct! As far as you know, lol.");
+        }
+        while (chancesLeft == 0) {
+            alert("You have ran out of chances");
+            break;
+        }
     }
-    chancesLeft--;
-  }
-  if (!answeredCorrectly) {
-    alert('You are out of chances!');
-  }
 }
